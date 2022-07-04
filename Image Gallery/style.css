@@ -26,6 +26,8 @@ h1{
 .image-box img{
 	 height: 60%;
 	 width: 100%;
+	 border: 1px solid black;
+	 border-radius: 50%;
 	 object-fit: cover;
 	 transition: .4s;
 }
