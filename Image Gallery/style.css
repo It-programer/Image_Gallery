@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.gallery{
+	height: 80%;
+	width: 100%;
+	display: flex;
+	margin: 5% auto 0;
+	box-sizing: border-box;
+}
+.gallery:hover .active{
+	flex-basis: 0;
+}
+.image-box{
+	margin: 0 1%;
+	flex-grow: 1;
+	flex-basis: 0;
+	transition: .4s;
+}
+.image-box:nth-child(1):hover {
+	flex-basis: 50%;
+}
+.image-box img{
+	 height: 60%;
+	 width: 100%;
+	 object-fit: cover;
+	 transition: .4s;
+}
+.image-box:hover{
+  flex-basis: 50%;
+}
+
+.active{
+	flex-basis: 50%;
+}
